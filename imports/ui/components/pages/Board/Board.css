@@ -1,0 +1,23 @@
+.boardPage__container .cardsList {
+    margin-right: 20px;
+}
+
+.boardPage__backLink {
+    display: block;
+    margin-bottom: 20px;
+    font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    color: #026aa7;
+}
+
+.boardPage__removeBoard {
+    margin-bottom: 20px;
+    padding: 6px 8px;
+    background: #b00015;
+    color: white;
+    border: none;
+    font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}

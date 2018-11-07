@@ -1,0 +1,53 @@
+.boardLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 190px;
+    height: 100px;
+    box-sizing: border-box;
+    font-family: Helvetica Neue,Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    background: #476b80;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.boardLink:hover {
+    background: #75a2bd;
+    cursor: pointer;
+}
+
+.boardLink.create {
+    background: rgba(9, 45, 66, .08);
+    color: #17394d;
+    font-weight: normal;
+}
+
+.boardLink.create:hover {
+    background: rgba(9, 45, 66, .13);
+}
+
+.boardLink__addForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.boardLink__addForm input {
+    margin-bottom: 10px;
+    width: 90%;
+    height: 20px;
+    font-size: 13px;
+    text-indent: 5px;
+}
+
+.boardLink__addForm button {
+    border: none;
+    background: #026aa7;
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,69 @@
+.cardItem {
+    position: relative;
+    display: block;
+    margin-bottom: 8px;
+    padding: 6px 20px 6px 8px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 0 1px 0 rgba(9,45,66,.25);
+    cursor: pointer;
+}
+
+.cardItem:last-child {
+    margin-bottom: 0;
+}
+
+.cardItem.create {
+    background: none;
+    box-shadow: none;
+    border-radius: 0;
+    padding: 0;
+}
+
+.cardItem__save {
+    border: none;
+    background: #026aa7;
+    color: white;
+    padding: 6px;
+    font-size: 12px;
+    text-transform: uppercase;
+    display: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.cardItem__editIcon {
+    visibility: hidden;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    font-size: 12px;
+    color: grey;
+}
+
+.cardItem:hover .cardItem__editIcon {
+    visibility: visible;
+}
+
+.cardItem.opened .cardItem__content {
+    height: 150px;
+    outline: none;
+    overflow-y: auto;
+}
+
+.cardItem__deleteIcon {
+    visibility: hidden;
+    position: absolute;
+    bottom: 15px;
+    right: 8px;
+    font-size: 15px;
+    color: grey;
+}
+
+.cardItem.opened .cardItem__deleteIcon {
+    visibility: visible;
+}
+
+.cardItem.opened .cardItem__save {
+    display: block;
+}
